@@ -1,10 +1,6 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
 const cors = require("cors");
-const path = require("path");
-const config = require("./config/db");
 const port = process.env.PORT || 8080;
 const routes= require("./routes/routes");
 const connectDatabase= require("./config/db");
